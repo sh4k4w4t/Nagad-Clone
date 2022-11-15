@@ -17,12 +17,12 @@
             android:layout_width="29dp"
             android:layout_height="32dp"
             android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
-            android:src="@drawable/icon3"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="10dp" />
+            android:src="@drawable/icon3" />
 
         <ImageView
             android:layout_width="52dp"
@@ -126,27 +126,27 @@
                     android:background="#aaaaaa" />
 
             </RelativeLayout>
-            
+
             <RelativeLayout
                 android:layout_width="match_parent"
+                android:layout_height="106dp"
                 android:layout_weight="1"
-                android:orientation="vertical"
-                android:layout_height="106dp">
-                
+                android:orientation="vertical">
+
                 <ImageView
                     android:id="@+id/otp"
-                    android:src="@drawable/shadhin"
                     android:layout_width="55dp"
                     android:layout_height="55dp"
-                    android:layout_centerInParent="true"/>
-                
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/shadhin" />
+
                 <TextView
-                    android:layout_below="@+id/otp"
                     android:layout_width="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:textSize="12sp"
                     android:layout_height="wrap_content"
-                    android:text=" স্বাধীন"/>
+                    android:layout_below="@+id/otp"
+                    android:layout_centerHorizontal="true"
+                    android:text=" স্বাধীন"
+                    android:textSize="12sp" />
 
                 <View
                     android:layout_width="wrap_content"
@@ -166,20 +166,129 @@
             </RelativeLayout>
 
             <RelativeLayout
-                android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="106dp">
+                android:layout_height="106dp"
+                android:orientation="vertical">
 
                 <ImageView
                     android:id="@+id/ntb"
                     android:layout_width="35dp"
                     android:layout_height="35dp"
-                    android:src="@drawable/biboroni"
-                    android:layout_centerInParent="true"/>
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/biboroni" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Biboroni"/>
+                    android:layout_below="@id/ntb"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:text="বিবরণী"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="#aaaaaa" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="149dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ctp"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/setelment" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ctp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:text="Selenment"
+                    android:textSize="12dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#aaaaaa" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/bte"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/nibondhan" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bte"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:text="Nibondon"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#aaaaaa" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/atp"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/billpay" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/atp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:text="Balace"
+                    android:textSize="12sp" />
 
             </RelativeLayout>
 
